@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700&amp;family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "error": "#ba1a1a", "on-error": "#ffffff", "primary-fixed": "#dbe1ff", "primary": "#0047c1", "secondary-fixed": "#80fab9", "on-secondary-fixed": "#002111", "on-tertiary": "#ffffff", "on-background": "#041b3c", "on-primary-container": "#e7eaff", "surface-container-high": "#e0e8ff", "inverse-surface": "#1d3052", "surface": "#f9f9ff", "surface-container-lowest": "#ffffff", "surface-variant": "#d7e2ff", "surface-container-low": "#f1f3ff", "inverse-primary": "#b4c5ff", "error-container": "#ffdad6", "primary-container": "#155eef", "primary-fixed-dim": "#b4c5ff", "on-tertiary-fixed-variant": "#5f4100", "surface-container-highest": "#d7e2ff", "on-surface-variant": "#434655", "surface-dim": "#cadaff", "inverse-on-surface": "#edf0ff", "on-tertiary-fixed": "#271900", "on-secondary-container": "#007147", "tertiary-fixed-dim": "#fabc45", "tertiary": "#6d4c00", "tertiary-fixed": "#ffdea9", "outline": "#737687", "on-surface": "#041b3c", "background": "#f9f9ff", "on-primary-fixed": "#00174b", "on-primary": "#ffffff", "surface-bright": "#f9f9ff", "tertiary-container": "#8c6300", "secondary-container": "#7df7b6", "surface-tint": "#0052dc", "surface-container": "#e8edff", "secondary": "#006d44", "on-error-container": "#93000a", "outline-variant": "#c3c6d8", "on-secondary-fixed-variant": "#005232", "on-primary-fixed-variant": "#003da9", "secondary-fixed-dim": "#62dd9e", "on-tertiary-container": "#ffe9c9", "on-secondary": "#ffffff" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-md": "1rem", "space-xs": "0.25rem", "space-sm": "0.5rem", "gutter-desktop": "1.5rem", "space-lg": "1.5rem", "space-xl": "2rem", "space-2xl": "3rem", "margin": "1rem", "margin-desktop": "2.5rem", "gutter": "1rem" }, fontFamily: { "body-md": ["Inter"], "body-sm": ["Inter"], "headline-sm": ["Epilogue"], "headline-md": ["Epilogue"], "body-lg": ["Inter"], "label-sm": ["Inter"], "label-lg": ["Inter"], "headline-lg": ["Epilogue"], "label-md": ["Inter"], "display-lg-mobile": ["Epilogue"], "display-lg": ["Epilogue"] }, fontSize: { "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "30px", "fontWeight": "600" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "700" }], "label-lg": ["15px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-md": ["13px", { "lineHeight": "18px", "fontWeight": "600" }], "display-lg-mobile": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }] } } } }</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-full"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-space-md flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs"><img alt="EduPrep Ghana Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdxSXqZdougDQ9uYAlxkdUcgDKoK3CYXZi6Z7RbosnCg7aOEFjErEIN92ztjpod0vtJLdndWbVnPnR_BEzB0HtKXYmXQecvho46cHfpY5pi1oRU6pgyn6-y-ELrXvwUo4_5SttH2GWo5sZDW61RhT5jDbqyhtslJSFUFnFN8GC8uD0RbyykHkDlLlgawoDyRsYBhII289IENU9drasEXuy7txneT4G8n42CHaOKvcE"/><div class="flex items-center gap-1.5"><span class="font-headline-sm text-headline-sm font-bold text-on-surface tracking-tight">EduPrep</span><span class="px-1.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wider">PWA</span></div></div><div class="flex items-center gap-2"><button class="flex items-center gap-1.5 px-2 py-1 rounded-full bg-secondary-container/60 text-on-secondary-container font-label-sm text-label-sm active:scale-95 transition-transform" type="button"><span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span><span>Online</span></button><button class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container active:scale-95 transition-all" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-error ring-2 ring-surface"></span></button><div class="relative flex items-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-container" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRq6GAz0ilc2V-XLJ_7yjVgHBao-Pi-OhEF6VUxXMuuFQ7fYVOtSlV6S_E7UbpHzb0IztJ3Zlr2U6qA-OYKDdofOxrsjb8S4CR44NyvkSsRI-apxucMq69vPockwT821JbfJP1jKxWUlYtkIEov46L40sm1yrbtO5URrbNw_KEUehH9VM4HPV7gzSoWMlDcM8S8JdxKDEzyM8nNJMmoMIxe7KYBouTPniS0e-dNVe2"/><span class="hidden"><span class="font-label-sm text-label-sm">SHS 2 Science</span></span></div></div></div></header><main class="flex-1 flex flex-col relative w-full px-space-md pt-16 pb-24 bg-surface" id="screen-content"><div class="flex flex-col w-full space-y-space-md">
+<!-- Student Welcome Bar -->
+<section class="bg-surface-container-low rounded-xl p-space-md shadow-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="space-y-1">
+<h1 class="font-headline-md text-headline-md text-on-surface">Good morning, Kwame! 👋</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ready to learn something new today?</p>
+</div>
+<div class="w-10 h-10 rounded-full bg-primary-container/10 flex items-center justify-center text-primary-container shrink-0">
+<span class="material-symbols-outlined text-[24px]">school</span>
+</div>
+</div>
+<!-- Student Metadata Chips -->
+<div class="mt-3 flex flex-wrap items-center gap-1.5">
+<span class="inline-flex items-center px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">
+        Prempeh College
+      </span>
+<span class="inline-flex items-center px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">
+        SHS 2 General Science
+      </span>
+<span class="inline-flex items-center px-2.5 py-1 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm">
+        WASSCE 2026
+      </span>
+</div>
+<!-- Network & Sync Status -->
+<div class="mt-3 pt-2.5 flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm bg-surface-container/60 px-3 py-1.5 rounded-lg">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary">Online</span>
+<span class="text-outline-variant">•</span>
+<span>Sync updated 2 mins ago</span>
+</div>
+<span class="material-symbols-outlined text-[16px] text-secondary">cloud_done</span>
+</div>
+</section>
+<!-- Inspiring Hero Motivational Card -->
+<section class="relative overflow-hidden rounded-xl bg-gradient-to-br from-primary-container via-primary to-inverse-surface text-on-primary p-space-md shadow-md">
+<!-- Decorative geometric background overlay -->
+<div class="absolute -right-8 -top-8 w-36 h-36 rounded-full bg-white/10 blur-xl pointer-events-none"></div>
+<div class="absolute right-6 bottom-2 opacity-10 pointer-events-none">
+<span class="material-symbols-outlined text-[96px]">auto_stories</span>
+</div>
+<div class="relative z-10 flex flex-col space-y-3">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-white/20 backdrop-blur-md text-on-primary font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-[14px]">flag</span>
+          Daily Target: 80% Complete
+        </span>
+<span class="text-tertiary-fixed font-label-sm text-label-sm flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[16px]">stars</span>
+          Day 14
+        </span>
+</div>
+<blockquote class="font-headline-sm text-headline-sm leading-snug tracking-tight text-white pr-4">
+        “Small steps every day lead to big achievements.”
+      </blockquote>
+<!-- Progress bar -->
+<div class="w-full bg-white/20 h-2 rounded-full overflow-hidden">
+<div class="bg-secondary-fixed h-full rounded-full w-[80%] transition-all duration-500"></div>
+</div>
+<!-- Action Button -->
+<button class="mt-1 w-full bg-surface-container-lowest text-primary hover:bg-primary-fixed active:scale-[0.98] transition-all py-3 px-4 rounded-xl flex items-center justify-center gap-2 font-label-lg text-label-lg shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px] text-primary" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+<span>Continue Learning: Integrated Science</span>
+</button>
+</div>
+</section>
+<!-- 4 Compact Summary Metrics Cards (2x2 grid) -->
+<section class="grid grid-cols-2 gap-space-sm">
+<!-- Card 1: Subjects Enrolled -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-2">
+<span class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">menu_book</span>
+</span>
+<span class="material-symbols-outlined text-[16px] text-secondary" title="Cached">offline_pin</span>
+</div>
+<div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Enrolled</p>
+<div class="font-headline-sm text-headline-sm text-on-surface mt-0.5">7 Subjects</div>
+<p class="font-label-sm text-label-sm text-secondary mt-1 flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[13px]">check_circle</span>
+          All offline cached
+        </p>
+</div>
+</div>
+<!-- Card 2: Quizzes Completed -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-2">
+<span class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[20px]">task_alt</span>
+</span>
+<span class="inline-flex items-center px-1.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">
+          +5 wk
+        </span>
+</div>
+<div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Quizzes</p>
+<div class="font-headline-sm text-headline-sm text-on-surface mt-0.5">42 Tests</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-1">Ready for review</p>
+</div>
+</div>
+<!-- Card 3: Average Score -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-2">
+<span class="w-8 h-8 rounded-lg bg-secondary-container/40 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">trending_up</span>
+</span>
+<span class="inline-flex items-center px-1.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold">
+          +6%
+        </span>
+</div>
+<div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Average Score</p>
+<div class="font-headline-sm text-headline-sm text-on-surface mt-0.5">78%</div>
+<p class="font-label-sm text-label-sm text-secondary mt-1">Target: 85% Grade A</p>
+</div>
+</div>
+<!-- Card 4: Learning Streak -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-2">
+<span class="w-8 h-8 rounded-lg bg-tertiary-fixed flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</span>
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim animate-ping"></span>
+</div>
+<div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Study Streak</p>
+<div class="font-headline-sm text-headline-sm text-on-surface mt-0.5">5 Days</div>
+<p class="font-label-sm text-label-sm text-tertiary mt-1 font-semibold">Keep it going! 🔥</p>
+</div>
+</div>
+</section>
+<!-- Daily Learning Challenge Card -->
+<section class="rounded-xl bg-tertiary-fixed text-on-tertiary-fixed p-space-md shadow-sm relative overflow-hidden">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[24px] text-tertiary" style="font-variation-settings: 'FILL' 1;">bolt</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-tertiary-fixed-variant">Daily Challenge</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-lowest/80 text-on-tertiary-fixed font-label-sm text-label-sm">
+        3 left
+      </span>
+</div>
+<h2 class="font-headline-sm text-headline-sm mt-2 text-on-tertiary-fixed">
+      Answer 10 Core Mathematics questions
+    </h2>
+<div class="mt-3 space-y-1.5">
+<div class="flex justify-between items-center font-label-sm text-label-sm text-on-tertiary-fixed-variant">
+<span>Progress (7/10 answered)</span>
+<span class="font-bold">70%</span>
+</div>
+<div class="w-full bg-on-tertiary-fixed/10 h-2.5 rounded-full overflow-hidden">
+<div class="bg-tertiary h-full rounded-full w-[70%]"></div>
+</div>
+</div>
+<div class="mt-3.5 pt-2.5 flex items-center justify-between gap-2 border-none bg-surface-container-lowest/70 p-2.5 rounded-lg">
+<div class="flex items-center gap-2 min-w-0">
+<span class="material-symbols-outlined text-[20px] text-tertiary-container shrink-0">military_tech</span>
+<span class="font-label-sm text-label-sm text-on-tertiary-fixed truncate">Reward: +50 XP • “Quick Solver” Badge</span>
+</div>
+<button class="shrink-0 px-3 py-1 bg-tertiary text-on-tertiary rounded-lg font-label-sm text-label-sm active:scale-95 transition-transform" type="button">
+        Solve
+      </button>
+</div>
+</section>
+<!-- Continue Where You Left Off -->
+<section class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Continue Learning</h2>
+<a class="font-label-sm text-label-sm text-primary hover:underline" href="#">View Syllabus</a>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-3">
+<div class="flex items-start justify-between gap-2">
+<div class="space-y-1 min-w-0">
+<span class="inline-block px-2 py-0.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm">
+            Integrated Science
+          </span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">
+            Human Circulatory System
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Topic 3 of 6 • Heart &amp; Blood Vessels</p>
+</div>
+<div class="w-12 h-12 rounded-xl bg-primary-fixed/50 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[28px]">cardiology</span>
+</div>
+</div>
+<!-- Linear progress indicator -->
+<div class="space-y-1">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Overall Module Review</span>
+<span class="font-bold text-on-surface">65%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-primary-container h-full rounded-full w-[65%]"></div>
+</div>
+</div>
+<div class="pt-1 flex items-center gap-2">
+<button class="flex-1 bg-primary-container text-on-primary py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 font-label-md text-label-md shadow-sm active:scale-[0.98] transition-transform" type="button">
+<span class="material-symbols-outlined text-[18px]">play_arrow</span>
+<span>Resume Revision</span>
+</button>
+<button class="w-11 h-11 flex items-center justify-center rounded-xl bg-surface-container text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" title="Study Notes" type="button">
+<span class="material-symbols-outlined text-[20px]">sticky_note_2</span>
+</button>
+</div>
+</div>
+</section>
+<!-- My Subjects Quick Grid -->
+<section class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">My Subjects</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">SHS 2 Core Stream</span>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<!-- Subject 1: Core Mathematics -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm flex flex-col justify-between">
+<div class="flex items-start justify-between mb-3">
+<!-- Circular Progress Ring (Inline SVG) -->
+<div class="relative w-11 h-11 flex items-center justify-center">
+<svg class="w-11 h-11 transform -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3"></path>
+<path class="text-primary-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="82, 100" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+<span class="absolute font-label-sm text-label-sm text-on-surface font-bold">82%</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-secondary" title="Downloaded for Offline">download_done</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface line-clamp-1">Core Maths</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">14 Lessons</p>
+</div>
+</div>
+<!-- Subject 2: Integrated Science -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm flex flex-col justify-between">
+<div class="flex items-start justify-between mb-3">
+<div class="relative w-11 h-11 flex items-center justify-center">
+<svg class="w-11 h-11 transform -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3"></path>
+<path class="text-secondary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="65, 100" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+<span class="absolute font-label-sm text-label-sm text-on-surface font-bold">65%</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-secondary" title="Downloaded for Offline">download_done</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface line-clamp-1">Integ. Science</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">18 Lessons</p>
+</div>
+</div>
+<!-- Subject 3: English Language -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm flex flex-col justify-between">
+<div class="flex items-start justify-between mb-3">
+<div class="relative w-11 h-11 flex items-center justify-center">
+<svg class="w-11 h-11 transform -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3"></path>
+<path class="text-primary-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="74, 100" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+<span class="absolute font-label-sm text-label-sm text-on-surface font-bold">74%</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-secondary" title="Downloaded for Offline">download_done</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface line-clamp-1">English Lang.</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">12 Lessons</p>
+</div>
+</div>
+<!-- Subject 4: Social Studies -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm flex flex-col justify-between">
+<div class="flex items-start justify-between mb-3">
+<div class="relative w-11 h-11 flex items-center justify-center">
+<svg class="w-11 h-11 transform -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3"></path>
+<path class="text-tertiary-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="58, 100" stroke-linecap="round" stroke-width="3"></path>
+</svg>
+<span class="absolute font-label-sm text-label-sm text-on-surface font-bold">58%</span>
+</div>
+<button class="text-outline hover:text-primary active:scale-95" title="Download for Offline" type="button">
+<span class="material-symbols-outlined text-[18px]">download_for_offline</span>
+</button>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface line-clamp-1">Social Studies</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">10 Lessons</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Weekly Learning Progress Bar Visualization -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-3">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Weekly Study Activity</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Total: 4.8 hrs this week</p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary bg-secondary-container/30 px-2 py-1 rounded-md">
+<span class="material-symbols-outlined text-[14px]">arrow_upward</span>
+        18% vs last wk
+      </span>
+</div>
+<!-- Mon to Sun Bars -->
+<div class="pt-2 flex items-end justify-between h-28 gap-2">
+<!-- Mon -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant">35m</span>
+<div class="w-full bg-primary-fixed rounded-t-md h-[45%]"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">M</span>
+</div>
+<!-- Tue -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant">50m</span>
+<div class="w-full bg-primary-fixed rounded-t-md h-[65%]"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">T</span>
+</div>
+<!-- Wed -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant">40m</span>
+<div class="w-full bg-primary-fixed rounded-t-md h-[55%]"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">W</span>
+</div>
+<!-- Thu -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant">75m</span>
+<div class="w-full bg-primary-container rounded-t-md h-[95%]"></div>
+<span class="font-label-sm text-label-sm font-bold text-primary">T</span>
+</div>
+<!-- Fri (Today) -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-label-sm text-label-sm text-secondary font-bold">60m</span>
+<div class="w-full bg-secondary rounded-t-md h-[80%]"></div>
+<span class="font-label-sm text-label-sm font-bold text-secondary">F</span>
+</div>
+<!-- Sat -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-label-sm text-label-sm text-outline-variant">--</span>
+<div class="w-full bg-surface-container rounded-t-md h-[10%]"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">S</span>
+</div>
+<!-- Sun -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-label-sm text-label-sm text-outline-variant">--</span>
+<div class="w-full bg-surface-container rounded-t-md h-[10%]"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">S</span>
+</div>
+</div>
+</section>
+<!-- Smart Study Suggestion Banner -->
+<section class="bg-surface-container-high rounded-xl p-space-md shadow-sm">
+<div class="flex items-start gap-3">
+<div class="w-10 h-10 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">lightbulb</span>
+</div>
+<div class="space-y-1">
+<h4 class="font-label-lg text-label-lg text-on-surface">Study Advisor Insight</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          You scored <strong class="text-secondary font-semibold">90% in Algebra</strong>! Reinforce your mathematical foundation by practicing <span class="font-semibold text-primary underline">Geometry &amp; Trigonometry</span> next.
+        </p>
+<div class="pt-1">
+<button class="text-primary font-label-md text-label-md flex items-center gap-1 active:translate-x-1 transition-transform" type="button">
+<span>Start Geometry Drill</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Simple micro-interaction for tactile feedback on interactive buttons
+  document.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('touchstart', () => {}, {passive: true});
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.05)]" data-active-classes="text-primary-container font-bold"><div class="flex justify-around items-center h-16 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center flex-1 h-full py-1 transition-colors active:scale-95 text-primary-container font-bold" data-path="home" href="#"><span class="material-symbols-outlined text-[24px]">home</span><span class="font-label-sm text-label-sm tracking-normal">Home</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95" data-path="subjects" href="#"><span class="material-symbols-outlined text-[24px]">menu_book</span><span class="font-label-sm text-label-sm tracking-normal">Learn</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95" data-path="quiz" href="#"><span class="material-symbols-outlined text-[24px]">help_center</span><span class="font-label-sm text-label-sm tracking-normal">Quiz</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95" data-path="performance" href="#"><span class="material-symbols-outlined text-[24px]">bar_chart</span><span class="font-label-sm text-label-sm tracking-normal">Progress</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95" data-path="profile" href="#"><span class="material-symbols-outlined text-[24px]">person</span><span class="font-label-sm text-label-sm tracking-normal">Profile</span></a></div></nav></body></html>
